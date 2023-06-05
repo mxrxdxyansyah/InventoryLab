@@ -65,6 +65,7 @@
             button1.TabIndex = 20;
             button1.Text = "Simpan";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label6
             // 
@@ -198,6 +199,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(66, 23);
             comboBox1.TabIndex = 28;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // FormTambahDataBarang
             // 
@@ -227,6 +229,7 @@
             Name = "FormTambahDataBarang";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tambah Data Barang";
+            Load += FormTambahDataBarang_Load;
             ResumeLayout(false);
             PerformLayout();
         }

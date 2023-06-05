@@ -29,7 +29,7 @@ namespace inventoryLab
         //inisiasi penampilan data
         public void BindxSoucre()
         {
-        
+
             // membuka koneksi db || pilih query
             ConnDB.Koneksi();
             ConnDB.OleAdapter = new OleDbDataAdapter("Select * from aslab", ConnDB.conn);
@@ -66,8 +66,18 @@ namespace inventoryLab
         {
             FormTambahAslab frm3 = new FormTambahAslab(this);
             frm3.UpdateEventHandler += F2_UpdateEventHandler1;
-            frm3.ShowDialog(); 
+            frm3.ShowDialog();
 
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            FormTambahAslab ftab = new FormTambahAslab(this);
+            ftab.textBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            ftab.textBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            ftab.textBox3.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            ftab.nootomatis();
+            ftab.Show();
         }
     }
 }

@@ -136,6 +136,7 @@
             button6.Text = " Rak";
             button6.TextImageRelation = TextImageRelation.ImageBeforeText;
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // buttonbrg
             // 

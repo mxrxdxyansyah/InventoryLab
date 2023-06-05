@@ -115,6 +115,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login | Inventory Lab";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -19,7 +19,6 @@ C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\in
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.FormTambahAslab.resources
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.FormTambahDataBarang.resources
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.FormTambahDataPengguna.resources
-C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.FormTambahDataRak.resources
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.Properties.Resources.resources
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.TampilDataAslab.resources
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.TampilDataBarang.resources
@@ -39,3 +38,4 @@ C:\Users\usER\source\repos\inventoryLab\inventoryLab\bin\Debug\net6.0-windows\ru
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.csproj.CopyComplete
+C:\Users\usER\source\repos\inventoryLab\inventoryLab\obj\Debug\net6.0-windows\inventoryLab.FormTambahRak.resources

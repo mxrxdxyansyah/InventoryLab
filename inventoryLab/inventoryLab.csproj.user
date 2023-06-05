@@ -16,7 +16,7 @@
     <Compile Update="FormTambahDataPengguna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormTambahDataRak.cs">
+    <Compile Update="FormTambahRak.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TampilDataAslab.cs">

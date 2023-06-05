@@ -9,14 +9,14 @@ namespace inventoryLab
             InitializeComponent();
         }
         KoneksiDB ConnDB = new KoneksiDB();
-        FormMenu Frmenu = new FormMenu();   
+        FormMenu Frmenu = new FormMenu();
         private void button1_Click(object sender, EventArgs e)
         {
             ConnDB.Koneksi();
-            ConnDB.cmd = new OleDbCommand("SELECT * FROM pengguna where kode_pengguna='" + textBox1.Text + "' AND pswrd='" + textBox2.Text+ "'", ConnDB.conn);
+            ConnDB.cmd = new OleDbCommand("SELECT * FROM pengguna where kode_pengguna='" + textBox1.Text + "' AND pswrd='" + textBox2.Text + "'", ConnDB.conn);
             ConnDB.OleReader = ConnDB.cmd.ExecuteReader();
             ConnDB.OleReader.Read();
-            if (! ConnDB.OleReader.HasRows)
+            if (!ConnDB.OleReader.HasRows)
             {
                 MessageBox.Show("Gagal Login.... Periksa Kembali");
                 textBox1.Text = "";
@@ -44,6 +44,11 @@ namespace inventoryLab
             {
                 textBox2.PasswordChar = '*';
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text.ToUpper();
         }
     }
 }

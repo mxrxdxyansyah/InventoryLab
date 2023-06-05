@@ -48,5 +48,11 @@ namespace inventoryLab
             tpb.BringToFront();
             tpb.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormTambahRak FTR = new FormTambahRak();
+            FTR.ShowDialog();
+        }
     }
 }
